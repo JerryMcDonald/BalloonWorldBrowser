@@ -1,6 +1,7 @@
 // src/App.jsx
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Menu from './components/Menu.jsx';
+
 import GameCanvas from './components/GameCanvas.jsx'; // Placeholder for your game component
 
 function App() {

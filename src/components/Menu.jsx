@@ -11,7 +11,7 @@ const Menu = () => {
 
   return (
     <div className="menu-container">
-      <h1>My Side-Scroller Game</h1>
+      <h1>Balloon World</h1>
       <button onClick={startGame}>Start Game</button>
       <button>Settings</button>
       <button>Credits</button>
