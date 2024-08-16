@@ -1,0 +1,21 @@
+/* src/css/Menu.css */
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+  }
+  
+  .menu-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .menu-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }

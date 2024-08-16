@@ -1,0 +1,25 @@
+/* src/css/GameCanvas.css */
+
+.game-canvas-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34; /* Dark background to focus on the game */
+  }
+  
+  .game-canvas-container h2 {
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Phaser game canvas */
+  #phaser-game-canvas {
+    width: 100%;
+    max-width: 800px;  /* Example max width */
+    height: auto;
+    border: 2px solid #ffffff; /* Optional: Add a border around the canvas */
+    background-color: black;  /* Background color for the canvas */
+  }
+  
