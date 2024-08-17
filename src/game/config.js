@@ -1,13 +1,12 @@
 // src/game/config.js
 import Phaser from 'phaser';
 import MainScene from './scenes/MainScene';
-import PreloadScene from './scenes/PreloadScene';
 
 const config = {
   type: Phaser.AUTO,
   width: window.innerWidth,
   height: window.innerHeight,
-  scene: [PreloadScene, MainScene],
+  scene: [MainScene],
   parent: 'phaser-game-canvas',
   backgroundColor: '#000000',
   physics: {

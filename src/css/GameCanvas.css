@@ -8,15 +8,31 @@ html, body {
   height: 100%;
 }
 
+/* src/css/GameCanvas.css */
+
 .game-canvas-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;       /* Full width of the viewport */
-  height: 100vh;      /* Full height of the viewport */
-  background-color: #000000; /* Black background for the game canvas */
-  overflow: hidden;   /* Ensure no scroll bars within the container */
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
 }
+
+.start-button {
+  padding: 20px 40px;
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: #0056b3;
+}
+
 
 #phaser-game-canvas {
   width: 100%;
