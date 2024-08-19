@@ -44,45 +44,45 @@ export default class MainScene extends Phaser.Scene {
       .refreshBody()
       .setTint(0x654321);
 
-    this.platforms.create(1200, this.scale.height - 150, null)
-      .setDisplaySize(200, 32)
-      .refreshBody()
-      .setTint(0x654321);
+    // this.platforms.create(1200, this.scale.height - 150, null)
+    //   .setDisplaySize(200, 32)
+    //   .refreshBody()
+    //   .setTint(0x654321);
 
-    this.platforms.create(50, this.scale.height - 200, null)
-      .setDisplaySize(150, 32)
-      .refreshBody()
-      .setTint(0x654321);
+    // this.platforms.create(50, this.scale.height - 350, null)
+    //   .setDisplaySize(150, 32)
+    //   .refreshBody()
+    //   .setTint(0x654321);
 
-    this.platforms.create(1500, this.scale.height - 250, null)
-      .setDisplaySize(150, 32)
-      .refreshBody()
-      .setTint(0x654321);
+    // this.platforms.create(1500, this.scale.height - 250, null)
+    //   .setDisplaySize(150, 32)
+    //   .refreshBody()
+    //   .setTint(0x654321);
 
-    this.platforms.create(750, this.scale.height - 300, null)
-      .setDisplaySize(150, 32)
-      .refreshBody()
-      .setTint(0x654321);
+    // this.platforms.create(750, this.scale.height - 350, null)
+    //   .setDisplaySize(150, 32)
+    //   .refreshBody()
+    //   .setTint(0x654321);
 
-    this.platforms.create(1700, this.scale.height - 350, null)
-      .setDisplaySize(150, 32)
-      .refreshBody()
-      .setTint(0x654321);
+    // this.platforms.create(1700, this.scale.height - 350, null)
+    //   .setDisplaySize(150, 32)
+    //   .refreshBody()
+    //   .setTint(0x654321);
 
-    this.platforms.create(1300, this.scale.height - 200, null)
-      .setDisplaySize(200, 32)
-      .refreshBody()
-      .setTint(0x654321);
+    // this.platforms.create(1300, this.scale.height - 200, null)
+    //   .setDisplaySize(200, 32)
+    //   .refreshBody()
+    //   .setTint(0x654321);
 
-    this.platforms.create(1800, this.scale.height - 150, null)
-      .setDisplaySize(200, 32)
-      .refreshBody()
-      .setTint(0x654321);
+    // this.platforms.create(1800, this.scale.height - 150, null)
+    //   .setDisplaySize(200, 32)
+    //   .refreshBody()
+    //   .setTint(0x654321);
 
-    this.platforms.create(2000, this.scale.height - 250, null)
-      .setDisplaySize(200, 32)
-      .refreshBody()
-      .setTint(0x654321);
+    // this.platforms.create(2000, this.scale.height - 250, null)
+    //   .setDisplaySize(200, 32)
+    //   .refreshBody()
+    //   .setTint(0x654321);
   }
 
   createStars() {
