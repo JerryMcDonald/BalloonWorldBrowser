@@ -1,12 +1,13 @@
-// src/game/config.js
 import Phaser from 'phaser';
+import PreloadScene from './scenes/PreloadScene';
+import MainMenuScene from './scenes/MainMenuScene';
 import MainScene from './scenes/MainScene';
 
 const config = {
   type: Phaser.AUTO,
   width: window.innerWidth,
   height: window.innerHeight,
-  scene: [MainScene],
+  scene: [PreloadScene, MainMenuScene, MainScene], // Start with the PreloadScene
   parent: 'phaser-game-canvas',
   backgroundColor: '#000000',
   physics: {
